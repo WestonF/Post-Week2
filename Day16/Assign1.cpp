@@ -34,10 +34,7 @@ enum class ACTION
 	ADD
 };
 
-//because I don't like unqualified global functions, but this doesnt seem like it needs to be a class
-namespace conv
-{
-}
+
 
 class calc
 {
@@ -88,6 +85,7 @@ int main()
 			break;
 		}
 
+		// smart people use isstream i_s(command), then load from i_s using i_s >> tempstring; maths.push_back(tempstring); and loop while(!i_s.eof())
 		//I don't want to ignore all spaces, as they separate parameters
 		//ignore leading spaces
 		int j = 0;
