@@ -145,7 +145,7 @@ int main()
 	bodies[4].position.x = -3;
 	bodies[4].position.y = -3;
 	
-//	for(int t = 0; t < t_end; t += timestep)
+	for(float t = 0; t < t_end; t += timestep)
 	{
 		//reset before accumulating new values
 		for(int i = 0; i < N; i++)
