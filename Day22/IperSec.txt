@@ -1,0 +1,10 @@
+{
+"results": [
+{ "N":10 ,"CalcPerSec":10000, "Interactions":45033, "Time_ms":1013},
+{ "N":20 ,"CalcPerSec":40000, "Interactions":190164, "Time_ms":2570},
+{ "N":50 ,"CalcPerSec":250000, "Interactions":1225537, "Time_ms":5479},
+{ "N":100 ,"CalcPerSec":1000000, "Interactions":4947556, "Time_ms":10448},
+{ "N":200 ,"CalcPerSec":4000000, "Interactions":19735780, "Time_ms":20163},
+{ "N":500 ,"CalcPerSec":25000000, "Interactions":112109023, "Time_ms":50879}
+]
+}
